@@ -11,6 +11,11 @@ pipeline {
                 echo 'Run BUILD'
             }
         }
+         stage('Build') {
+            steps {
+                echo 'Run BUILD'
+            }
+        }
         stage('BY') {
             steps {
                 echo 'By by'
